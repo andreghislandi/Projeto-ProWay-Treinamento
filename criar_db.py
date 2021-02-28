@@ -24,7 +24,7 @@ c.execute("""CREATE TABLE salas (
 c.execute("""CREATE TABLE esp_cafe (
         nome_cafe TEXT,
         capacidade INT,
-        participantes LIST
+        participantes TEXT
         )""")
 
 
